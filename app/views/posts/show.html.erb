@@ -3,6 +3,7 @@
 <h1 class="postTitle"><%= @post.title %></h1>
 <p class="postBody"><%= @post.description %></p>
 
+<script type="text/javascript" charset="utf-8">
 $(function () {
   event.preventDefault()
   $(".js-next").on("click", function() {
@@ -16,3 +17,4 @@ $(function () {
     });
   });
 });
+</script>
